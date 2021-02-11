@@ -1,7 +1,6 @@
 ---
-layout: default
-title: About Me Silicon Valley Freelancer
+layout: blank
+title: About Me
 permalink: about-me
 ---
 
-Hello World!

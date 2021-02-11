@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: blank
 title: Services 
 permalink: /service/
 ---
 
-[Social Media Marketing](/service/social-media)
-[E Commerce](/service/e-commerce)
+* [Social Media Marketing](/service/social-media)
+* [E Commerce](/service/e-commerce)

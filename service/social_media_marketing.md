@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blank
 title: Social Media Marketing Lab
 permalink: /service/social-media
 ---
