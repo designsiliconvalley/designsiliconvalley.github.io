@@ -1,5 +1,5 @@
 ---
 layout: blank
-title: Web Hosting
+title: Web Hosting Services
 permalink: /service/hosting
 ---

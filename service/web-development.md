@@ -1,6 +1,6 @@
 ---
 layout: blank
-title: Web Development
+title: Web Development Services
 permalink: /service/web-development
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: blank
-title: Graphic Design
+title: Graphic Design Freelancer
 permalink: /service/graphic-design
 ---
 

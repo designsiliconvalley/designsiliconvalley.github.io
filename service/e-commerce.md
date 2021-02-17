@@ -1,6 +1,6 @@
 ---
 layout: blank
-title: E-Commerce Shop Development -
+title: E-Commerce Shop Development
 permalink: /service/e-commerce
 ---
 
