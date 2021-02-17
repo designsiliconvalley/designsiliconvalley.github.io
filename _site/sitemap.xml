@@ -9,27 +9,42 @@
 
 <url>
   <loc>https://designsiliconvalley.com/</loc>
-  <lastmod>2021-02-09T12:25:48+00:00</lastmod>
+  <lastmod>2021-02-17T12:11:11+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://designsiliconvalley.com/service/</loc>
-  <lastmod>2021-02-09T12:25:48+00:00</lastmod>
+  <lastmod>2021-02-17T12:11:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://designsiliconvalley.com/contact</loc>
+  <lastmod>2021-02-17T12:11:11+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://designsiliconvalley.com/about-me</loc>
-  <lastmod>2021-02-09T12:25:48+00:00</lastmod>
+  <lastmod>2021-02-17T12:11:11+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://designsiliconvalley.com/privacy-policy</loc>
-  <lastmod>2021-02-09T12:25:48+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://designsiliconvalley.com/service/web-development</loc>
+  <lastmod>2021-02-17T12:11:11+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://designsiliconvalley.com/service/social-media</loc>
-  <lastmod>2021-02-09T12:25:48+00:00</lastmod>
+  <lastmod>2021-02-17T12:11:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://designsiliconvalley.com/service/e-commerce</loc>
+  <lastmod>2021-02-17T12:11:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://designsiliconvalley.com/service/graphic-design</loc>
+  <lastmod>2021-02-17T12:11:11+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 

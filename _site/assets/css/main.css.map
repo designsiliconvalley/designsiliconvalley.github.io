@@ -3,13 +3,13 @@
 	"file": "main.css",
 	"sources": [
 		"main.scss",
-		"_sass/main.scss",
-		"_sass/hero.scss",
-		"_sass/aside.scss",
-		"_sass/nav.scss",
-		"_sass/contact.scss",
-		"_sass/footer.scss",
-		"_sass/faq.scss"
+		"../../Desktop/designsiliconvalley.github.io/_sass/main.scss",
+		"../../Desktop/designsiliconvalley.github.io/_sass/hero.scss",
+		"../../Desktop/designsiliconvalley.github.io/_sass/aside.scss",
+		"../../Desktop/designsiliconvalley.github.io/_sass/nav.scss",
+		"../../Desktop/designsiliconvalley.github.io/_sass/contact.scss",
+		"../../Desktop/designsiliconvalley.github.io/_sass/footer.scss",
+		"../../Desktop/designsiliconvalley.github.io/_sass/faq.scss"
 	],
 	"sourcesContent": [
 		"@import \"main\";\n@import \"hero\";\n@import \"aside\";\n@import \"nav\";\n@import \"contact\";\n@import \"footer\";\n\n@import \"faq\";",
