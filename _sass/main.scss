@@ -9,7 +9,7 @@
 }
 
 body {
-    font-family: Jost;
+    font-family: 'Jost';
     color: #616e7c;
     overflow-x: hidden;
 }
@@ -19,6 +19,8 @@ img {
 }
 
 /** title **/
+
+
 
 h1 {
     font-size: 36px;
@@ -41,14 +43,15 @@ h3 {
 p {
     margin: 1.3rem 0;
     color: #102A43;
+    font-size: 20px;
+    line-height: 28px;
 }
 
 
 ul {
     padding-left: 0px;
-    font-size: 18px;
-    line-height: 30px;
-    list-style: none;
+    font-size: 20px;
+    line-height: 32px;
     padding: 16px 0;
 }
 
@@ -56,18 +59,48 @@ ul a {
     color: #788C9B;
 }
 
-
+iframe {
+    max-width: 90%;
+}
 
 strong {
     color: #FF4949;
 }
 
 
+
+.italic {
+    font-style: italic;
+    color: #788C9B;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+
+
+
+#website__2 {   
+    width: 230px;
+    transform: rotate(353deg);
+    position: absolute;
+    left: -260px;
+    top: 101px;
+    z-index: -2;
+    border-radius: 10px;
+}
+
+
+
 @media only screen and (min-width: 850px) {   
 
     p {
         font-size: 20px;
-        line-height: 30px;
+        line-height: 32px;
+    }
+
+    .italic {
+        font-size: 22px;
+        line-height: 32px;
     }
 
  
@@ -87,6 +120,33 @@ strong {
 }
 
 
+
+@font-face {
+    font-family: 'Jost';
+    src: url('/assets/fonts/Jost-Regular.woff2') format('woff2'),
+        url('/assets/fonts/Jost-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('/assets/fonts/Jost-SemiBold.woff2') format('woff2'),
+        url('/assets/fonts/Jost-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jost';
+    src: url('/assets/fonts/Jost-Italic.woff2') format('woff2'),
+        url('/assets/fonts/Jost-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
 
 
 
@@ -117,11 +177,10 @@ header h1 {
 }
 
 
-
 header p {
     color: #788C9B;
-    font-size: 18px;
-    
+    animation: moveInBottom 1s ease-in-out;
+    display: inline-block;
 }
 
 
@@ -135,6 +194,7 @@ header p {
 
 .header__images {
     position: relative;
+    animation: moveInRight 1s ease-in-out;
 } 
 
 #header__images__bg__1 {
@@ -178,21 +238,36 @@ header h1 {
     line-height: 68px;
 }
 
+header p {
+    font-size: 22px;
+    line-height: 32px;
+}
+
 
 .header__content {
     text-align: left;
-    width: 577px;
+    width: 600px;
     max-width: 90%;
 }
 
 .header__images {
     position: absolute;
-    right: 0;
+    right: -3rem;
     top: 3rem;
 }
 
-
+#arrow_svg {
+    width: 108px;
+    right: 130px;
+    transform: rotate(70deg);
+    top: 4rem;
+    opacity: .5;
+    z-index: -2;
 }
+}
+
+
+
 
 
 
@@ -222,8 +297,14 @@ header h1 {
     margin: 48px auto;
 }
 
+main {
+    position: relative;
+}
 
-
+#main_svg {
+    position: absolute;
+    z-index: -99;
+}
 
 
 
@@ -231,12 +312,25 @@ header h1 {
 
 @media only screen and (min-width: 850px) {  
 
+    main h2, main h3 {
+        margin: 48px 0 4px 0;
+    }
+
     #home { 
         width: 1100px;
         display: grid;
         grid-template-columns: 60% 40%;
         grid-gap: 64px;
         margin: 96px auto;
+        margin-top: 64px;
+    }
+
+    #main_svg {
+        position: absolute;
+        z-index: -99;
+        width: 100px;
+        top: 5rem;
+        left: 1rem;
     }
 
 
@@ -294,7 +388,6 @@ header h1 {
 
 
 
-
 /** BTN **/
 
 .btn:link,
@@ -319,11 +412,12 @@ header h1 {
 }
 
 .btn-white {
-    background-color: #fef7f2;
+    background-color: #fac602;
     color: #102A43;
     font-family: Jost;
     letter-spacing: 0.03rem;
-    font-size: 16px;
+    font-size: 15px;
+    font-weight: 500;
 }
 
 .btn::after {
@@ -339,9 +433,6 @@ header h1 {
     transition: all .4s;
 }
 
-.btn-white::after {
-    background-color: #fff;
-}
 
 .btn:hover::after {
     transform: scaleX(1.4) scaleY(1.6);
@@ -363,6 +454,7 @@ header h1 {
     background-color: white;
     margin: 16px 0;
     border-radius: 6px;
+    font-size: 18px;
 }
 
 .left__image__points span {
@@ -434,7 +526,7 @@ header h1 {
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin: 64px auto;
-        grid-gap: 0px;
+        grid-gap: 24px;
     }
 
     .shape__orange { 
@@ -451,6 +543,9 @@ header h1 {
         color: #788C9B;
         width: 550px;
         max-width: 90%;
+        font-size: 22px;
+        line-height: 32px;
+        margin-top: 12px;
     }
 
 
@@ -470,17 +565,3 @@ header h1 {
 
 
 
- footer {
-    background-color: #FEF7F2;
-    padding: 8px 0;
-    color: #B49782;
- }
-
- footer ul  {
-    text-align: center;
-}
-
- footer ul li {
-     display: inline-block;
-     margin: 12px;
- }

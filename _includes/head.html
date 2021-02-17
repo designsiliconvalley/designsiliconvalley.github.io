@@ -6,7 +6,9 @@
 
     {% if page.noindex %}<meta NAME="ROBOTS" CONTENT="NOINDEX,FOLLOW"/>{% endif %}
     <title>{{ page.title }} - {{ site.title }}</title>
+    <meta name="description" content="{{ page.description }}">
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    
 
 </head>
 
